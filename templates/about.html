@@ -1,0 +1,73 @@
+{% extends 'master.html' %}
+{% load static %}
+
+{% block title %}
+<title></title>
+{% endblock %}
+
+{% block extra_css %}
+
+{% endblock %}
+
+{% block content %}
+<section class="about">
+    <div class="container">
+        <div class="about-content">
+            <div class="about-text">
+                <h2>About <span>InsightSphere</span></h2>
+                <p>At InsightSphere, we bring you insightful content from around the world, covering diverse topics
+                    such as technology, lifestyle, business, and more.</p>
+                <p>Our mission is to keep you informed, inspired, and engaged with high-quality articles, expert
+                    opinions, and up-to-date trends.</p>
+                <p>Join our community and explore a world of knowledge with us.</p>
+                <a href="{% url 'contact'%}" class="btn">Get in Touch</a>
+            </div>
+            <div class="about-image">
+                <img src="{% static 'images/about1.jpg' %}" alt="About InsightSphere">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="about-content">
+            <div class="about-image">
+                <img src="{% static 'images/about2.jpg' %}" alt="About InsightSphere">
+            </div>
+            <div class="about-text">
+                <h2>Donate <span>InsightSphere</span></h2>
+                <p>At InsightSphere, we are passionate about delivering valuable content that educates, inspires, and
+                    empowers our readers. If you find our work meaningful and want to support us in creating even more
+                    insightful content, consider making a small donation.</p>
+                <p>Every contribution, big or small, helps us keep this platform running, expand our reach, and continue
+                    sharing knowledge with the world.</p>
+                <p> Your support makes a difference!</p>
+                <h3>How To Donate:</h3>
+                <p>📌 [Insert Payment Option - e.g., PayPal, M-Pesa, Buy Me a Coffee]</p>
+                <p>📌 [Bank/Payment Details, if applicable]</p>
+                <a href="contact.html" class="btn">Thank you for your support! 💖</a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="about-content">
+            <div class="about-text">
+                <h2>Collaborate With <span>InsightSphere</span></h2>
+                <p>At InsightSphere, we bring you insightful content from around the world, covering diverse topics
+                    such as technology, lifestyle, business, and more.</p>
+                <p>Our mission is to keep you informed, inspired, and engaged with high-quality articles, expert
+                    opinions, and up-to-date trends.</p>
+                <p>Join our community and explore a world of knowledge with us.</p>
+                <a href="contact.html" class="btn">Get in Touch</a>
+            </div>
+            <div class="about-image">
+                <img src="{% static 'images/about3.jpg' %}" alt="About InsightSphere">
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
+
+{% block extra_js %}
+
+{% endblock %}
+
